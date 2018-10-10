@@ -4,32 +4,61 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Spoke - The P Family</title>
-    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet"> 
-    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-
+    <script src="/js/scripts.js"></script>
+    <script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
   </head>
   <body>
   <section class="section">
     <div class="container">
-      <h1>
-        Good Morning!
-      </h1>
       <div class="columns">
-        <div class="column">1</div>
         <div class="column">
-            <h2 class="module_header has-text-centered">Today is</h2>
+            <h2 class="module_header has-text-centered">Today is...</h2>
                 <ul class="has-text-centered">
-                  <li>Wednesday</li>
-                  <li>October</li>
-                  <li>10</li>
-                  <li>2018</li>
+                  <li class="calendar-element wednesday is-size-3 has-text-weight-bold">Wednesday</li>
+                  <li class="calendar-element october is-size-3 has-text-weight-bold">October</li>
                 </ul>  
+                <p class="calendar-element-numbers">10</p>
+                <p class="calendar-element-numbers">2018</p>
         </div>
+        
+        <div class="column">
+            <h2 class="module_header has-text-centered">The color of the day is...</h2>
+            <div class="color-square"></div>
+            <p class="subtitle is-size-3 has-text-centered white">green</p>
+        </div>
+
         <div class="column">3</div>
-        <div class="column">4</div>
+        <div class="column has-text-centered">
+          <h2 class="module_header has-text-centered">Sight Words!</h2>
+            <div class="columns">
+            <div class="column sight-words is-size-2 has-text-weight-bold">
+              <ul>
+                <li>a</li>
+                <li>the</li>
+                <li>you</li>
+              </ul>
+            </div>
+            <div class="column sight-words is-size-2 has-text-weight-bold">
+              <ul>
+                <li>in</li>
+                <li>and</li>
+                <li>is</li>
+              </ul>
+            </div>
+        </div>
       </div>
     </div>
   </section>
+  <footer class="footer">
+      <div class="content has-text-centered">
+        <p>made with django and bulma</p>
+      </div>
+    </footer>
+  
   </body>
 </html>

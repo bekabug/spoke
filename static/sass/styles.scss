@@ -1,20 +1,36 @@
 @charset "utf-8";
 @import "bulma-0.7.1/bulma.sass";
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:400,700');
 $slabfont: 'Zilla Slab', serif;
-$lighttext: rgba(255,255,255,.8);
+$lighttext: rgba(255,255,255,.9);
 $lightgray: #999;
 $darkgray: #333;
 $darkblue: #064780;
-$lightblue: #A0C2DE;
+$lightblue: #a0c2de;
 
+$red: #dc081e;
+$softred: #fa7381;
+$orange: #fd8814;
+$softorange: #feb975;
+$yellow: #f9ed1d;
+$softyellow:#fbf369;
+$green: #29a51f;
+$softgreen: #92e98b;
+$blue: #002182;
+$softblue: #6e93ff;
+$indigo: #4b0082;
+$softindigo: #dba9ff;
+$violet: #ee82ee;
+$softviolet: #f6c0f6;
 
 body {
     background: $darkblue;
     color: $lighttext;
     font-size: 100%;
-}
+} 
 
 /*typography*/
+.white {color: #fff;}
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
     font-size-adjust: 0.5;
   }
@@ -121,6 +137,90 @@ h1 {
       /* 35px / 24px */
     }
   }
-  .text_center {text-align: center;}
-  .text_left {text-align: left;}
-  .text_right {text-align: right;}
+
+  .module_header {
+    margin-bottom: 6px;
+  }
+
+  /* Calendar */
+.calendar-element {
+  margin: 6px 0px;
+  color: black;
+  font-family: $slabfont;
+}
+.calendar-element-numbers{
+  color: black;
+}
+.monday {
+  background-color: $red;
+}
+.tuesday {
+  background-color: $orange;
+}
+.wednesday {
+  background-color: $yellow;
+}
+.thursday {
+  background-color: $green;
+}
+.friday {
+  background-color: $blue;
+}
+.saturday {
+  background-color: $indigo;
+}
+.sunday {
+  background-color: $violet;
+}
+
+.january{
+  background-color: $softblue;
+}
+.february{
+  background-color: $softblue;
+}
+.march{
+  background-color: $softgreen;
+}
+.april{
+  background-color: $softgreen;
+}
+.may{
+  background-color: $softgreen;
+}
+.june{
+  background-color: $softyellow;
+}
+.july{
+  background-color: $softyellow;
+}
+.august{
+  background-color: $softyellow;
+}
+.september{
+  background-color: $orange;
+}
+.october{
+  background-color: $orange;
+}
+.november{
+  background-color: $orange;
+}
+.december{
+  background-color: $softblue;
+}
+
+.color-square {
+  background-color: green;
+  border: 4px solid #fff;
+  border-radius: 100px;
+  margin: 0 auto;
+  height: 165px;
+  width: 165px;
+}
+
+.sight-words li {
+  background: white;
+  color: black;
+  margin: 6px 0px;
+}

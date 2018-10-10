@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
+@import url("https://fonts.googleapis.com/css?family=Zilla+Slab:400,700");
 @keyframes spinAround {
   from {
     transform: rotate(0deg);
@@ -8435,11 +8436,15 @@ label.panel-block:hover {
 
 body {
   background: #064780;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 100%;
 }
 
 /*typography*/
+.white {
+  color: #fff;
+}
+
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
   font-size-adjust: 0.5;
 }
@@ -8540,16 +8545,110 @@ blockquote {
     /* 35px / 24px */
   }
 }
-.text_center {
-  text-align: center;
+.module_header {
+  margin-bottom: 6px;
 }
 
-.text_left {
-  text-align: left;
+/* Calendar */
+.calendar-element {
+  margin: 6px 0px;
+  color: black;
+  font-family: "Zilla Slab", serif;
 }
 
-.text_right {
-  text-align: right;
+.calendar-element-numbers {
+  color: black;
+}
+
+.monday {
+  background-color: #dc081e;
+}
+
+.tuesday {
+  background-color: #fd8814;
+}
+
+.wednesday {
+  background-color: #f9ed1d;
+}
+
+.thursday {
+  background-color: #29a51f;
+}
+
+.friday {
+  background-color: #002182;
+}
+
+.saturday {
+  background-color: #4b0082;
+}
+
+.sunday {
+  background-color: #ee82ee;
+}
+
+.january {
+  background-color: #6e93ff;
+}
+
+.february {
+  background-color: #6e93ff;
+}
+
+.march {
+  background-color: #92e98b;
+}
+
+.april {
+  background-color: #92e98b;
+}
+
+.may {
+  background-color: #92e98b;
+}
+
+.june {
+  background-color: #fbf369;
+}
+
+.july {
+  background-color: #fbf369;
+}
+
+.august {
+  background-color: #fbf369;
+}
+
+.september {
+  background-color: #fd8814;
+}
+
+.october {
+  background-color: #fd8814;
+}
+
+.november {
+  background-color: #fd8814;
+}
+
+.december {
+  background-color: #6e93ff;
+}
+
+.color-square {
+  background-color: green;
+  border: 4px solid #fff;
+  border-radius: 100px;
+  margin: 0 auto;
+  height: 165px;
+  width: 165px;
+}
+
+.sight-words li {
+  background: white;
+  color: black;
+  margin: 6px 0px;
 }
 
 /*# sourceMappingURL=styles.css.map */
