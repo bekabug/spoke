@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:bekabug/spoke.git",
   "author": "Beka <beka@bekabug.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
 }
