@@ -1,0 +1,12 @@
+#+Title:Spoke: A Digital Daily Board for Homeschool PreK and Kindergarten
+
+This little project started because we're homeschooling. We don't have an entire wall to devote to a proper daily board. 
+I do have plenty of monitors, however. 
+
+* Roadmap
+** Vertical
+** Horizontal
+** Global
+*** Time and Date, dynamic
+*** Set sight words into table
+*** About a million other things...
